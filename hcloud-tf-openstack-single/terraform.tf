@@ -1,4 +1,7 @@
-# https://medium.com/@gtrafimenkov/how-to-manage-hetzner-cloud-with-terraform-25308fab6c22
+# Terraform playbook for used with Pluralshight's COA course
+# ----------------------------------------------------------
+# Ubuntu-16.04 - 4GB RAM - Single node - Private network 10.0.1.0/24
+
 
 ## Variables come here ##
 variable "hcloud_token" {}
