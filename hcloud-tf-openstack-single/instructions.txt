@@ -1,2 +1,22 @@
 1, export TF_VAR_hcloud_token="mytoken"
 
+
+
+        terraform plan \
+        -var "pub_key=$HOME/.ssh/terraform_pwless.pub" \
+        -var "pvt_key=$HOME/.ssh/terraform_pwless" \
+
+
+
+
+Possible route of 
+	terraform plan \
+	-var "hcloud_token=${HCLOUD_TOKEN}" \
+	-var "pub_key=$HOME/.ssh/terraform_pwless.pub" \
+	-var "pvt_key=$HOME/.ssh/terraform_pwless" \
+	-var "ssh_fingerprint=$SSH_FINGERPRINT"
+
+
+
+
+
